@@ -5,6 +5,6 @@ function sum(n){
   }
   return sum;
 }
-num=Number(prompt("Enter the number"))
-res=sum(num)
-alert("Sum = "+res)
+num=Number(prompt("Enter the number"));
+var res=sum(num);
+alert("Sum = "+res);
